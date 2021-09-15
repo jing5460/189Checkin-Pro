@@ -84,7 +84,7 @@ class CheckIn(object):
         }
         data = {
             "appKey": "cloud",
-            "accountType": "01",
+            "accountType": "03",
             "userName": f"{{RSA}}{self.rsa_encode(j_rsa_key, self.username)}",
             "password": f"{{RSA}}{self.rsa_encode(j_rsa_key, self.password)}",
             "validateCode": "",
